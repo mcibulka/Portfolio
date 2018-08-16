@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <!-- jQuery -->
@@ -15,12 +17,12 @@
 
   <body class="has-navbar-fixed-top">
     <main>
-      <section class="hero is-primary is-fullheight">
+      <section class="hero is-fullheight">
         <div class="hero-head">
-          <nav class="navbar has-background-primary is-fixed-top">
+          <nav class="navbar is-fixed-top has-background-white">
             <div class="container">
               <div class="navbar-brand">
-                <h3 class="title is-3">Matthew Cibulka</h3>
+                <h3 id="brand" class="title is-3">Matthew Cibulka</h3>
                 <span class="navbar-burger burger" data-target="navbarMenuHeroA">
                   <span></span>
                   <span></span>
@@ -28,8 +30,8 @@
                 </span>
               </div>
               <div class="navbar-menu is-hidden-desktop">
-                <a class="navbar-item has-text-centered" href="#About">About</a>
-                <a class="navbar-item has-text-centered" href="#Portfolio">Portfolio</a>
+                <a class="navbar-item has-text-centered" href="#about">About</a>
+                <a class="navbar-item has-text-centered" href="#portfolio">Portfolio</a>
               </div>
             </div>
           </nav>
@@ -37,7 +39,7 @@
       
         <div class="hero-body">
           <div class="container has-text-centered">
-            <h1 id="About" class="title">About</h1>
+            <h1 id="about" class="title is-2">About</h1>
             <div class="columns is-centered is-gapless">
               <div class="column is-4 has-background-white">
                 <figure class="image is-1by1">
@@ -46,10 +48,10 @@
               </div>
               <div class="column is-8 has-background-white">
                 <div class="content">
-                  <p class="about-me has-text-black has-text-justified is-marginless">
+                  <p class="about-me body-text has-text-black has-text-justified is-marginless">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis malesuada purus id augue tincidunt laoreet. Vivamus non erat placerat, vulputate neque ut, efficitur lorem. Donec ultrices viverra nibh. Sed vel neque nunc. Ut vulputate rutrum justo, molestie ultricies dui congue vel. Curabitur molestie justo nec nulla eleifend faucibus. Phasellus scelerisque ex sed enim gravida varius quis sit amet neque. Suspendisse porttitor efficitur nulla, ut porta ipsum venenatis vel. Quisque sit amet sapien nec ex viverra euismod vitae non neque.
                   </p>
-                  <p class="about-me has-text-black has-text-justified">
+                  <p class="about-me body-text has-text-black has-text-justified">
                     Etiam posuere sodales sem, in rutrum est aliquet ac. Etiam non scelerisque lectus. Nullam nec placerat turpis, quis ullamcorper magna. Etiam convallis odio urna, sed scelerisque sem facilisis quis. Praesent et est sit amet risus ultrices ultricies. Proin at vehicula nibh, eget aliquam libero. Mauris vel vulputate nisl. In cursus, nibh in vehicula feugiat, sapien lectus convallis est, consectetur maximus mi quam id urna. Integer et felis varius enim pretium pulvinar. Vivamus eu sodales leo, eu rhoncus mauris.
                   </p>
                   <div class="columns is-centered is-marginless">
@@ -60,7 +62,7 @@
                             <span class="icon">
                               <i class="fab fa-linkedin"></i>
                             </span>
-                            <span>LinkedIn</span>
+                            <span class="button-text">LinkedIn</span>
                           </a>
                         </p>
                         <p class="control">
@@ -68,7 +70,7 @@
                             <span class="icon">
                               <i class="fab fa-github"></i>
                             </span>
-                            <span>GitHub</span>
+                            <span class="button-text">GitHub</span>
                           </a>
                         </p>
                         <p class="control">
@@ -90,7 +92,7 @@
 
         <div class="hero-body">
           <div class="container has-text-centered">
-            <h1 id="Portfolio" class="title">Portfolio</h1>
+            <h1 id="portfolio" class="title is-2">Portfolio</h1>
             <div class="columns">
               <div class="column is-4">
                 <div class="card">
@@ -102,11 +104,11 @@
                   <div class="card-content">
                     <div class="media">
                       <div class="media-content">
-                        <p class="title is-4 has-text-black has-text-centered">Project Title</p>
+                        <p class="project-title title is-4 has-text-black has-text-centered">Project Title</p>
                       </div>
                     </div>
                 
-                    <div class="content">
+                    <div class="content body-text has-text-justified">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a risus sit amet metus condimentum lacinia. Integer mollis ornare orci id finibus. Integer tincidunt varius lacus in suscipit.
                     </div>
 
@@ -115,13 +117,13 @@
                         <span class="icon">
                           <i class="fas fa-globe"></i>
                         </span>
-                        <span>View</span>
+                        <span class="button-text">View</span>
                       </a>
                       <a href="#" class="card-footer-item">
                         <span class="icon">
                           <i class="fab fa-github"></i>
                         </span>
-                        <span>Repo</span>
+                        <span class="button-text">Repo</span>
                       </a>
                     </footer>
                   </div>
@@ -138,11 +140,11 @@
                   <div class="card-content">
                     <div class="media">
                       <div class="media-content">
-                        <p class="title is-4 has-text-black has-text-centered">Project Title</p>
+                        <p class="project-title title is-4 has-text-black has-text-centered">Project Title</p>
                       </div>
                     </div>
                 
-                    <div class="content">
+                    <div class="content body-text has-text-justified">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a risus sit amet metus condimentum lacinia. Integer mollis ornare orci id finibus. Integer tincidunt varius lacus in suscipit.
                     </div>
 
@@ -151,13 +153,13 @@
                         <span class="icon">
                           <i class="fas fa-globe"></i>
                         </span>
-                        <span>View</span>
+                        <span class="button-text">View</span>
                       </a>
                       <a href="#" class="card-footer-item">
                         <span class="icon">
                           <i class="fab fa-github"></i>
                         </span>
-                        <span>Repo</span>
+                        <span class="button-text">Repo</span>
                       </a>
                     </footer>
                   </div>
@@ -174,11 +176,11 @@
                   <div class="card-content">
                     <div class="media">
                       <div class="media-content">
-                        <p class="title is-4 has-text-black has-text-centered">Project Title</p>
+                        <p class="project-title title is-4 has-text-black has-text-centered">Project Title</p>
                       </div>
                     </div>
                 
-                    <div class="content">
+                    <div class="content body-text has-text-justified">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a risus sit amet metus condimentum lacinia. Integer mollis ornare orci id finibus. Integer tincidunt varius lacus in suscipit.
                     </div>
 
@@ -187,13 +189,13 @@
                         <span class="icon">
                           <i class="fas fa-globe"></i>
                         </span>
-                        <span>View</span>
+                        <span class="button-text">View</span>
                       </a>
                       <a href="#" class="card-footer-item">
                         <span class="icon">
                           <i class="fab fa-github"></i>
                         </span>
-                        <span>Repo</span>
+                        <span class="button-text">Repo</span>
                       </a>
                     </footer>
                   </div>
@@ -205,7 +207,7 @@
       
         <div class="hero-foot">
           <div class="container has-text-centered">
-            <p>Copyright &copy; 2018 Matthew Cibulka</p>
+            <p id="footer-text">Copyright &copy; 2018 Matthew Cibulka</p>
           </div>
         </div>
       </section>
