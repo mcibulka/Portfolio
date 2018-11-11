@@ -1,48 +1,89 @@
-#about, #contact, #portfolio {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+#about,
+#contact,
+#portfolio {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+#about-navbar-item:hover {
+  /* "disable" hover effect */
+  background-color: #042a2b;
+  color: #fafffd;
 }
 
 #brand {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    padding: 10px;
+  color: #fafffd;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  padding: 10px;
+}
+
+#contact-navbar-item:hover {
+  /* "disable" hover effect */
+  background-color: #042a2b;
+  color: #fafffd;
 }
 
 #footer-text {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#portfolio-navbar-item:hover {
+  /* "disable" hover effect */
+  background-color: #042a2b;
+  color: #fafffd;
 }
 
 #profile-photo {
-    padding: 10px;
+  padding: 10px;
 }
 
 
 .about-me {
-    padding: 10px;
+  padding: 10px;
 }
 
 .body-text {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .button-text {
-    font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
 }
 
 .contact-label {
-    font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
 }
 
 .input-text {
-    font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
 }
 
-.navbar-item {
-    font-family: 'Open Sans', sans-serif;
+.my-footer {
+  background-color: #042a2b;
+  color: #fafffd;
+}
+
+.my-navbar {
+  background-color: #042a2b;
+}
+
+.my-navbar-item {
+  background-color: #042a2b;
+  color: #fafffd;
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px;
+}
+
+.my-navbar-menu {
+  background-color: #042a2b;
+}
+
+.my-span {
+  color: #fafffd;
 }
 
 .project-title {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
