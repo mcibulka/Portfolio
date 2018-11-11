@@ -16,30 +16,30 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
-<body class="has-navbar-fixed-top">
-  <main>
-    <section class="hero is-fullheight">
-      <div class="hero-head">
-        <nav class="navbar is-fixed-top has-background-white">
-          <div class="container">
-            <div class="navbar-brand">
-              <h3 id="brand" class="title is-3">Matthew Cibulka</h3>
-              <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-                <span></span>
-                <span></span>
-                <span></span>
-              </span>
-            </div>
-            <div class="navbar-menu is-hidden-desktop">
-              <a class="navbar-item has-text-centered" href="#about">About</a>
-              <a class="navbar-item has-text-centered" href="#portfolio">Portfolio</a>
-              <a class="navbar-item has-text-centered" href="#contact">Contact</a>
-            </div>
-          </div>
-        </nav>
+<body>
+  <nav class="navbar my-navbar">
+    <div class="container my-navbar">
+      <div class="navbar-brand">
+        <h3 id="brand" class="title is-3">Matthew Cibulka</h3>
+        <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+          <span class="my-span"></span>
+          <span class="my-span"></span>
+          <span class="my-span"></span>
+        </span>
       </div>
+      <div class="navbar-menu my-nvabar-menu is-hidden-desktop is-paddingless">
+        <a id="about-navbar-item" class="navbar-item my-navbar-item has-text-centered" href="#about">About</a>
+        <a id="portfolio-navbar-item" class="navbar-item my-navbar-item has-text-centered" href="#portfolio">Portfolio</a>
+        <a id="contact-navbar-item" class="navbar-item my-navbar-item has-text-centered" href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
 
+  <main>
+    <section class="hero">
       <div class="hero-body">
+
+        <!-- About -->
         <div class="container has-text-centered">
           <h1 id="about" class="title is-2">About</h1>
           <div class="columns is-centered is-gapless">
@@ -70,9 +70,8 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="hero-body">
+        <!-- Portfolio -->
         <div class="container has-text-centered">
           <h1 id="portfolio" class="title is-2">Portfolio</h1>
           <div class="columns">
@@ -188,9 +187,8 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="hero-body">
+        <!-- Contact -->
         <div class="container">
           <h1 id="contact" class="title is-2 has-text-centered">Contact</h1>
           <div class="columns is-centered">
@@ -226,14 +224,14 @@
           </div>
         </div>
       </div>
-
-      <div class="hero-foot">
-        <div class="container has-text-centered">
-          <p id="footer-text">Copyright &copy; 2018 Matthew Cibulka</p>
-        </div>
-      </div>
     </section>
   </main>
+
+  <footer class="footer my-footer">
+    <div class="content has-text-centered">
+      <p id="footer-text">Copyright &copy; 2018 Matthew Cibulka</p>
+    </div>
+  </footer>
 
   <script src="assets/javascript/events.js"></script>
 </body>
