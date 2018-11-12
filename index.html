@@ -38,17 +38,20 @@
   <main>
     <section class="hero">
       <div class="hero-body is-paddingless">
-
         <!-- About -->
         <div class="container my-container has-text-centered">
-          <h1 id="about" class="title is-2 my-h1">About</h1>
+          <div class="columns is-centered is-gapless">
+            <div class="column is-10 has-background-white">
+              <h1 id="about" class="title is-2 my-h1">About</h1>
+            </div>
+          </div>
           <div class="columns is-centered is-gapless">
             <div class="column is-4 has-background-white">
               <figure class="image is-1by1">
                 <img id="profile-photo" src="assets/images/Profile_Photo.jpg">
               </figure>
             </div>
-            <div class="column is-8 has-background-white">
+            <div class="column is-6 has-background-white">
               <div class="content">
                 <p class="about-me body-text has-text-justified is-marginless">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis malesuada purus id augue tincidunt
@@ -73,8 +76,13 @@
 
         <!-- Portfolio -->
         <div class="container my-container has-text-centered">
-          <h1 id="portfolio" class="title is-2 my-h1">Portfolio</h1>
-          <div class="columns">
+          <div class="columns is-centered">
+            <div class="column is-10">
+              <h1 id="portfolio" class="title is-2 my-h1">Portfolio</h1>
+            </div>
+          </div>
+          <div class="columns is-centered">
+            <!-- Project #1 -->
             <div class="column is-4">
               <div class="card my-card">
                 <div class="card-image my-card-image">
@@ -112,43 +120,9 @@
               </div>
             </div>
 
-            <div class="column is-4">
-              <div class="card my-card">
-                <div class="card-image my-card-image">
-                  <figure class="image is-4by3">
-                    <img src="http://via.placeholder.com/300x200" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-content">
-                      <p class="project-title title is-4 has-text-centered">Project Title</p>
-                    </div>
-                  </div>
+            <div class="column is-2"></div>
 
-                  <div class="content body-text has-text-justified">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a risus sit amet metus condimentum
-                    lacinia. Integer mollis ornare orci id finibus. Integer tincidunt varius lacus in suscipit.
-                  </div>
-
-                  <footer class="card-footer">
-                    <a href="#" class="card-footer-item my-link">
-                      <span class="icon my-link">
-                        <i class="fas fa-globe"></i>
-                      </span>
-                      <span class="button-text">View</span>
-                    </a>
-                    <a href="#" class="card-footer-item my-link">
-                      <span class="icon my-link">
-                        <i class="fab fa-github"></i>
-                      </span>
-                      <span class="button-text">Repo</span>
-                    </a>
-                  </footer>
-                </div>
-              </div>
-            </div>
-
+            <!-- Project #2 -->
             <div class="column is-4">
               <div class="card my-card">
                 <div class="card-image my-card-image">
@@ -186,11 +160,97 @@
               </div>
             </div>
           </div>
-        </div>
 
-        <!-- Contact -->
+          <div class="columns is-centered">
+            <!-- Project #3 -->
+            <div class="column is-4">
+              <div class="card my-card">
+                <div class="card-image my-card-image">
+                  <figure class="image is-4by3">
+                    <img src="http://via.placeholder.com/300x200" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="project-title title is-4 has-text-centered">Project Title</p>
+                    </div>
+                  </div>
+
+                  <div class="content body-text has-text-justified">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a risus sit amet metus condimentum
+                    lacinia. Integer mollis ornare orci id finibus. Integer tincidunt varius lacus in suscipit.
+                  </div>
+
+                  <footer class="card-footer">
+                    <a href="#" class="card-footer-item my-link">
+                      <span class="icon my-link">
+                        <i class="fas fa-globe"></i>
+                      </span>
+                      <span class="button-text">View</span>
+                    </a>
+                    <a href="#" class="card-footer-item my-link">
+                      <span class="icon my-link">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span class="button-text">Repo</span>
+                    </a>
+                  </footer>
+                </div>
+              </div>
+            </div>
+
+            <div class="column is-2"></div>
+
+            <div class="column is-4">
+              <!-- Project #4 -->
+              <div class="card my-card">
+                <div class="card-image my-card-image">
+                  <figure class="image is-4by3">
+                    <img src="http://via.placeholder.com/300x200" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="project-title title is-4 has-text-centered">Project Title</p>
+                    </div>
+                  </div>
+
+                  <div class="content body-text has-text-justified">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a risus sit amet metus condimentum
+                    lacinia. Integer mollis ornare orci id finibus. Integer tincidunt varius lacus in suscipit.
+                  </div>
+
+                  <footer class="card-footer">
+                    <a href="#" class="card-footer-item my-link">
+                      <span class="icon my-link">
+                        <i class="fas fa-globe"></i>
+                      </span>
+                      <span class="button-text">View</span>
+                    </a>
+                    <a href="#" class="card-footer-item my-link">
+                      <span class="icon my-link">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span class="button-text">Repo</span>
+                    </a>
+                  </footer>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="hero-foot">
         <div class="container my-container has-text-centered">
-          <h1 id="contact" class="title is-2 my-h1">Contact</h1>
+          <div class="columns is-centered">
+            <div class="column is-10">
+              <h1 id="contact" class="title is-2 my-h1">Contact</h1>
+            </div>
+          </div>
           <div class="columns is-centered">
             <div class="column is-4 has-text-centered">
               <!-- Email -->
