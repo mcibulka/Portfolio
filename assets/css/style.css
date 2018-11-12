@@ -52,8 +52,12 @@
 }
 
 .button-text {
-  color: #342e37;
   font-family: 'Open Sans', sans-serif;
+}
+
+.card-footer-item:hover {
+  /* "disable" hover effect */
+  color: #5eb1bf;
 }
 
 .contact-label {
@@ -96,6 +100,10 @@
 
 .my-icon {
   color: #342e37;
+}
+
+.my-link {
+  color: #5eb1bf;
 }
 
 .my-navbar {
